@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="individualproduct.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="cartDisplay">
+        <button id="closeCart">X</button>
+        <div id="cDisplay"></div>
+    </div>
+
+    <div class="mainPage">
+        <div class="img"></div>
+        <div class="details">
+            <div id="desc"></div>
+            <div id="prices"></div>  
+            <div id="btnandqty">
+                <button id="addToCart">Add to Cart</button>
+                <label for="qty">QTY:</label>
+                <span id="qtydiv">
+                    <img src="https://cdn2.iconfinder.com/data/icons/bold-application/500/plus-512.png" alt="" class="qtycontrol" id="qtyplus">
+                    <p id="qty">1</p>
+                    <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-minus-512.png" alt="" class="qtycontrol" id="qtyminus">
+            </span>
+                
+            </div>
+            <div class="smalltext">
+                <span class="smalltext"><img src="https://cdn0.iconfinder.com/data/icons/online-clothes-shopping-set/128/iStar_Design_Online_Shopping_LineIcons_Live-26-512.png" alt=""> Add to compare list</span><span class="smalltext"><img src="https://www.clipartmax.com/png/middle/137-1378401_refer-a-friend-material-design-icon-group.png" alt=""> Refer this to your friend</span>
+            </div>
+            <div id="socialMediaIcons">
+                <img src="https://assets.sg.content-cdn.io/css/themes/mjt02012432/images/main/twitter_share.png" alt="">
+                <img src="https://assets.sg.content-cdn.io/css/themes/mjt02012432/images/main/fb_share.png" alt=""><img src="https://assets.sg.content-cdn.io/css/themes/mjt02012432/images/main/gplus_share.png" alt=""><img src="https://assets.sg.content-cdn.io/css/themes/mjt02012432/images/main/pinit_share.png" alt="">
+            </div>
+            <div>
+                <p>Enter pincode to check availability</p>
+                <input type="text" name="pincode" id="pincode" placeholder="Enter Pincode">
+                <button>Check</button>
+                <span class="smalltext">Delivered in 2-5 working days*</span>
+                <div>
+                    <p id="report"><img src="https://previews.123rf.com/images/grgroup/grgroup1703/grgroup170302648/73144390-blurred-silhouette-oval-dialog-box-icon-vector-illustration.jpg" alt=""> Report incorrect product information</p>
+                </div>
+            </div>      
+        </div>
+        
+       
+    </div>
+</body>
+</html>
+<script src=individualproduct.js></script>

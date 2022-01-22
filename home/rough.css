@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+
+@font-face {
+  font-family: Tiemann;
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://fonts.shopifycdn.com/tiemann/tiemann_n4.5b52e2bce962763887021fba63a434499fd58ec1.woff2?h1=Ymx1ZWZseS5jb20&hmac=cb075dd1defeca676a24f1983b7721acc92db4c8bfbb41f6866eca5468b8c911") format("woff2"),
+       url("https://fonts.shopifycdn.com/tiemann/tiemann_n4.45d9bd10a82b6ecfcb090ac3403c779194d6e014.woff?h1=Ymx1ZWZseS5jb20&hmac=b6726df3a0b1d474d5389c132a4fdf6d4f8fbb189a6c5ecec979b00ab6ecadba") format("woff");
+}
+
+  @font-face {
+  font-family: Futura;
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://fonts.shopifycdn.com/futura/futura_n4.df36ce3d9db534a4d7947f4aa825495ed740e410.woff2?h1=Ymx1ZWZseS5jb20&hmac=64fca420d6a68722ea7f3962f46790c297b9bf30785cb2d1573a1c09946baaf7") format("woff2"),
+       url("https://fonts.shopifycdn.com/futura/futura_n4.6bce24beb4ba1ff4ddeb20f7cd6e2fa513a3d6ec.woff?h1=Ymx1ZWZseS5jb20&hmac=fc733cef21f906d4cda98be650461fe293a0da2ec1eb5f0d975608d8ccbf5d85") format("woff");
+}
+
+
+  @font-face {
+  font-family: Futura;
+  font-weight: 600;
+  font-style: normal;
+  src: url("https://fonts.shopifycdn.com/futura/futura_n6.bbe2e25d5b96d13ff36b242171a3d07cf5a60170.woff2?h1=Ymx1ZWZseS5jb20&hmac=8c704436aa6e00029a067ccd046936d43be762d636887c483a6b6fdb72184350") format("woff2"),
+       url("https://fonts.shopifycdn.com/futura/futura_n6.66fa8f5c3c4b2c7c04809ecefe751450fa59d995.woff?h1=Ymx1ZWZseS5jb20&hmac=7deb9e0fdf646cc3f37685123f453f06ecfbf6c80c363f6062fcd2b88a8d6075") format("woff");
+}
+
+  @font-face {
+  font-family: Futura;
+  font-weight: 400;
+  font-style: oblique;
+  src: url("https://fonts.shopifycdn.com/futura/futura_o4.9747e2e6ed2f11b894984527c927b42234e48815.woff2?h1=Ymx1ZWZseS5jb20&hmac=47dbf89caeeafd82b8fcfa15bd18bdf3062ab5647f108c266a372bfef48d4c5c") format("woff2"),
+       url("https://fonts.shopifycdn.com/futura/futura_o4.d5edc6b1d9a050bbe0beb9093d73b883bf18c6c1.woff?h1=Ymx1ZWZseS5jb20&hmac=c8df4626f2452fc1435b60ab67487f8c313832521e69fc9595b201bacc31b879") format("woff");
+}
+
+  @font-face {
+  font-family: Futura;
+  font-weight: 600;
+  font-style: oblique;
+  src: url("https://fonts.shopifycdn.com/futura/futura_o6.2978dbd38bd9b3e8b72ee3299cd940da2900eb72.woff2?h1=Ymx1ZWZseS5jb20&hmac=b1ad5c7058267ab9ad653ef014a24c258caea641c16444cc5d62170f8191c155") format("woff2"),
+       url("https://fonts.shopifycdn.com/futura/futura_o6.bbc5bc6e7a675b3182e4866da9f9643bb3821261.woff?h1=Ymx1ZWZseS5jb20&hmac=c0ec11811dc36a11da7dd9d1ef922e43a15fd73703f0cbca430e9cb3bff699f6") format("woff");
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*Upper Nav start*/
+
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  display: inline-flex;
+}
+.navdiv1 {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  margin-left: 990px;
+}
+.navdiv2 {
+  height: 40px;
+  width: 90px;
+  display: flex;
+}
+.navdiv23 {
+  height: 40px;
+  width: 90px;
+  display: none;
+}
+.navdiv3 {
+  height: 40px;
+  width: 140px;
+  display: flex;
+}
+.navdiv4 {
+  height: 40px;
+  width: 60px;
+  display: flex;
+}
+.navLogo {
+  margin-top: 10px;
+  height: 17px;
+  width: 20px;
+}
+.navLogo-wishlist {
+  margin-top: 10px;
+  height: 22px;
+  width: 20px;
+}
+.navText {
+  color: white;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navText-wishlist {
+  color: white;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.navText:hover {
+  text-decoration: underline;
+}
+.navText-wishlist:hover {
+  color: red;
+}
+
+/* Upper Nav End */
+.nav h1{
+    color:white;
+    text-align:center;
+    margin:auto;
+    font-family (stack):Futura, sans-serif;
+
+}
